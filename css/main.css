@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'GeosanOblique'; 
+    src: url('/resources/GeosansLightOblique.ttf'); 
+}
+
+@font-face {
+    font-family: 'Geosan'; 
+    src: url('/resources/GeosansLight.ttf'); 
+}
+
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('/resources/RobotoRegular.ttf'); 
+}
+
+@font-face {
+    font-family: 'RobotoLight'; 
+    src: url('/resources/RobotoLight.ttf'); 
+}
+
+@font-face {
+    font-family: 'RobotoBold'; 
+    src: url('/resources/RobotoBold.ttf'); 
+}
+
+@font-face {
+    font-family: 'RobotoThin'; 
+    src: url('/resources/RobotoThin.ttf'); 
+}
+
+@font-face {
+    font-family: 'cowboy'; 
+    src: url('/resources/cowboy.ttf'); 
+}
+
+
+
+html, body {
+    background: #FDFFFC;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Classes */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /*position: relative;*/
+    min-height: 100%;
+    height: 10000px;
+    
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    background: #011627;
+    text-align: center;
+}
+
+.subContainer {
+    height: 1000px;
+    width: 50%;
+    float: left;
+
+}
+
+
+/* Text Styles */
+.bold {
+    font-family: "RobotoBold";
+}
+
+.heading {
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+#coverText {
+    width: 1100px;
+    height: 60px;
+    position: absolute;
+    margin: auto;
+    color: #FF9F1C;
+    font-family: "RobotoThin";
+    font-size: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#aboutMenu {
+    background: #E71D36;
+}
+
+#about {
+    background: white;
+}
+
+#aboutMenuText {
+    color: white;
+    font-family: "cowboy";
+    font-size: 80px;
+    text-align: center;
+    line-height: 1000px;
+    margin: 0 auto;
+}
+
+#myWorkMenuText {
+    color: white;
+    font-family: "cowboy";
+    font-size: 80px;
+    text-align: center;
+    line-height: 1000px;
+    margin: 0 auto;
+}
+
+#myPhoto {
+    width: 100%;
+}
+
+#myWorkMenu {
+    background: #2EC4B6;
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .subContainer {
+        width: 100%;
+        float: none;
+        height: 1000px;
+    }
+    .menu {
+        height: 300px;
+    }
+    #aboutMenuText {
+        line-height: 300px;
+    }
+
+#myWorkMenuText {
+        line-height: 300px;
+    }
+}
+
+@media (min-width: 1700px) {
+    #myPhoto {
+        width: 850px;
+    }
+    .reactiveCenter {
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    #myPhoto {
+        width: 800px;
+    }
+    .reactiveCenter {
+        text-align: center;
+    }
+}
+

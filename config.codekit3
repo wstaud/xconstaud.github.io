@@ -67,22 +67,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/cover.jpeg": {
-		"ft": 16384,
-		"iS": 8931868,
-		"oA": 0,
-		"oAP": "\/img\/cover.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/coverDark.jpg": {
-		"ft": 16384,
-		"iS": 12244464,
-		"oA": 0,
-		"oAP": "\/img\/coverDark.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/img\/coverLight.jpg": {
 		"ft": 16384,
 		"iS": 4148261,
@@ -144,14 +128,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/me.png": {
-		"ft": 32768,
-		"iS": 344424,
-		"oA": 0,
-		"oAP": "\/img\/me.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/img\/youtube.svg": {
 		"ft": 2097152,

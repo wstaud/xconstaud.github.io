@@ -3,35 +3,94 @@
 <html>
     <head>
         <title>William Staud</title>
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link rel="stylesheet" type="text/css" href="/css/simplegrid.css">
+        <link rel="stylesheet" type="text/css" href="/css/main-min.css">
     </head>
-    <body>
-        <div class="navBar"></div>
-        <div class="fullscreen" id="landingCover">
-            <div id="coverText">To <span class="bold">boldly</span> go where no developer has gone before.</div>  
-        </div>
-        <div class="container">
-            <div class="fullWidth">
-                <div class="subContainer menu" id="aboutMenu">
-                    <div id="aboutMenuText">About Me</div>
-                </div>
-                <div class="subContainer" id="about">
-                    <div class="reactiveCenter"><img id="myPhoto" src="/img/me.jpg">
-                    <div class="bold heading" id="aboutHeading">Background</div>
-                    <div class="content" id="backgroundContent">Hello, my name is William Staud. I am a student at Codeup, studying to be a Full Stack Web Developer with a focus on the front-end. Before this path in my life, I servered in the Air Force as a sattelite opperator. </div>
-                    <div class="bold heading" id="designHeading">Design</div>
-                    <div class="content" id="designContent"><span class="bold">Simple, fluid and funcitonal.</span> That is my design philoiphy. A website shoud immediatly draw the user in the moment it loads, and it should load fast. From there the experience needs to feel modern, yet reservered. And above all else, the site needs to function and funciton well. I like my sites to support as many devices and screen sizes as possible. That's why I employe the use of many tools as needed alongside my custom CSS and JavaScript... such as: Bootstrap, ReactJS, Vue, Jquery, etc.</div>
-                </div>
-            </div>
 
-            <div class="subContainer menu" id="myWorkMenu">
-                <div id="myWorkMenuText">My Work</div>
+    <body>
+        <!-- Full screen cover image with centered text -->
+        <div class="cover">
+            <div class="centerTextAbsolute">
+                <h1 id="coverName">WILLIAM STAUD</h1>
+                <h2 id="coverDes">aspiring front end developer</h2>
             </div>
-            <div class="subContainer" id="myWork">
-                
-            </div>
+            <!-- The background itself. Had to throw it in it's own div to lower it's opacity-->
+            <div class="coverBackground"></div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!-- Start of content. Used Simple Grid for everything between the navbar and footer -->
+        <div class="container">
+            <!-- Basic nav bar with social media icons. Can change color and properties of them within CSS -->
+            <div class="nav">
+                <a href="#" id="logo">William Staud</a>
+                <div id="links">
+                    <a href="#">about</a>
+                    <a href="#">portfolio</a>
+                    <a href="#">blog</a>
+                    <a href="#">contact</a>
+                </div>
+                <div id="socialMedia">
+                    <a href="#"><img class="svg social-link" id="linkdedin" src="/img/linkedin.svg"></a>
+                    <a href="https://github.com/xconstaud"><img class="svg social-link" id="github" src="/img/github.svg"></a>
+                    <a href="#"><img class="svg social-link" id="inbox" src="/img/inbox.svg"></a>
+                    <a href="https://www.youtube.com/user/steeleknightfootball"><img class="svg social-link" id="youtube" src="/img/youtube.svg"></a>
+                </div>
+            </div>
+            <!-- Wrapped the grids within a fullwidth class to give page the apperance of full content backgrounds -->
+            <!--  -->
+            <div class="fullwidth">
+                <div class="whiteBox grid grid-pad">
+                    <div id="aboutMeDiv" class="col-6-12">
+                        <h1 id="aboutMe">about me</h1>
+                        <h2 id="summary">I'm a student studying to be a Full Stack Developer with a focus on Front End</h2>
+                        <p id="aboutMeText">I love thinking of something awesome and being able to make it come to life with the power of Full Stack development. I believe in simple, fast, yet powerful web applicaitons that draw the user on first contact. I enjoy all aspects of programming from the logic and structure to creating beautiful UI designs; and I make it all happen with a wide variety of tools from HTML and CSS to Javascript and PHP.</p>
+                        <p id="aboutMeExtra">When I'm not coding, you'll find me partaking in a array of nerdy things from video and tabletop games, to video production and riding my motorcycle.</p>
+                    </div>
+                    <div class="col-5-12 push-1-12" id="myPhoto">
+                        <img id="me" src="/img/beard.png">
+                    </div>  
+                 </div>
+            </div>
+            <!-- Will add to this later -->
+            <div class="fullwidth grayBox">
+                <div class="grid grid-pad grayBoxGrid">
+                    <h1 class="centerTextAbsolute col-1-1">my background</h1>
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullwidth">
+                <div id="moreInfoBox" class="whiteBox grid grid-pad">
+                    <div class="col-7-12">
+                        <img id="enterprise" src="/img/enterprise.png">
+                    </div>
+                    <div class="col-4-12 push-1-12" id="moreList">
+                        <h2>A little more about me</h2>
+                        <ul>
+                            <li>I am a Star Trek fanatic</li>
+                            <li>Star Wars is good too</li>
+                            <li>I flew satellites in the Air Force</li>
+                            <li>I could be classified as an Audiophile</li>
+                            <li>I was once the top Tracer in the world</li>
+                            <li>I ride my motorcycle everywhere</li>
+                            <li>No really... everywhere</li>
+                            <li>I love electronic and metal music</li>
+                            <li>I wear my beanie all the time</li>
+                            <li>I don't remember what it's like to shave</li>
+                            <li>I'm a developer, not a mechanic!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer"></div>
+
+            
+        </div>
+
+
+        <!-- scripts -->
+        <script src="/js/jquery-3.1.1.min.js"></script>
         <script src="/js/main.js"></script>
     </body>
+
+</html>

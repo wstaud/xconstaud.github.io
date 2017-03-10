@@ -1,4 +1,12 @@
+$(document).ready (function() {
+    "use strict";
 
+$(document).ready(function(){
+    $(".mobileNav").on("click", function(){
+        $(".nav").toggleClass("open");
+    });
+
+});
 
 jQuery('img.svg').each(function(){
             var $img = jQuery(this);
@@ -28,3 +36,5 @@ jQuery('img.svg').each(function(){
             }, 'xml');
 
         });
+
+});

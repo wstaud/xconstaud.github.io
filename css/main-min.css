@@ -62,7 +62,8 @@ h1, h2 {
 
 .whiteBox {
   background: white;
-  text-align: center; }
+  text-align: center;
+  box-shadow: inset 1px 4px 9px -6px; }
 
 .grayBox {
   background: #efefef;

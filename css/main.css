@@ -74,11 +74,7 @@ h1, h2 {
 .grayBox {
     background: #efefef;
     box-shadow: inset 1px 4px 9px -6px;  
-    position: relative;
-}
-
-.grayBoxGrid {
-    height: 650px; 
+    
 }
 
 .footer {
@@ -188,6 +184,9 @@ h1, h2 {
     padding: 20px;
 }
 
+#chart {
+    margin-bottom: 40px;
+}
 
 
 
@@ -253,6 +252,32 @@ h1, h2 {
     }
     
 }
+
+@media only screen and (max-width: 700px) {
+    #coverName {
+        font-family: "RobotoThin";
+        font-size: 40px;
+        margin: 0;
+    }
+
+    #coverDes {
+        font-family: "Roboto";
+        font-size: 20px;
+        margin-top: 0; 
+    }
+    .centerTextAbsolute {
+        width: 300px;
+        height: 70px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+}
+
 
 
 

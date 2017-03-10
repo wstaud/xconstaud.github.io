@@ -39,6 +39,16 @@
 		"oA": 0,
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/simplegrid-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/simplegrid-min-min.css",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/css\/simplegrid.css": {
@@ -56,6 +66,14 @@
 		"iS": 69480,
 		"oA": 0,
 		"oAP": "\/img\/beard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/burgerIcon.png": {
+		"ft": 32768,
+		"iS": 17786,
+		"oA": 0,
+		"oAP": "\/img\/burgerIcon.png",
 		"oF": 0,
 		"opt": 0
 		},

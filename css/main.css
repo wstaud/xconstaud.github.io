@@ -1,3 +1,4 @@
+/* Gives us full width and height to push backgrounds to max margins */
 html, body {
     width: 100%;
     height: 100%;
@@ -44,6 +45,10 @@ h1, h2 {
     top: 0;
     bottom: 0;
     right: 0;
+}
+
+.mobileHide {
+    display: inline-block;
 }
 
 .nav {
@@ -240,19 +245,7 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Import Fonts*/
 
 @font-face {
     font-family: 'Coolvetica'; 
@@ -290,21 +283,14 @@ h1, h2 {
 }
 
 
-
-@media only screen and (min-width: 600px) {
+/* Hide desktop social media icons at below 1024px*/
+@media only screen and (max-width: 1024px) {
     .mobileHide {
         display: none;
     }
 
 }
-
-@media only screen and (min-width: 1024px) {
-    .mobileHide {
-        display: inline-block;
-    }
-    
-}
-
+/* Switch Navbar to mobile, adjust cover text size and hide mobilenavbar social media icons at less than 700px*/
 @media only screen and (max-width: 700px) {
     #coverName {
         font-size: 40px;
@@ -313,6 +299,7 @@ h1, h2 {
     #coverDes {
         font-size: 20px;
     }
+
     .centerTextAbsolute {
         width: 300px;
         height: 70px;
@@ -332,11 +319,13 @@ h1, h2 {
         height: 0;
         background: gray;
     }
+
     .open {
         width: 100%;
         height: auto;
         background: gray;
     }
+
     .nav a {
         float: none;
         display: block;
@@ -352,28 +341,29 @@ h1, h2 {
     .nav a:hover {
         color: black;
     }
+
     #socialMedia {
         display: none;
     }
     
-
     #logo {
         display: none;
     }
-
+}
+/* Auto height footer and center align elements in footer at max 770px */
+@media only screen and (max-width: 770px) {
     .footer ul {
         list-style-type: none;
         text-align: center;
         margin: 0;
         padding: 0;
     }
+
     .footerGrid {
         height: 100%;
         text-align: center;
     }
-
 }
-
 
 
 

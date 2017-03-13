@@ -23,6 +23,7 @@ h1, h2 {
     margin: 0;
 }
 
+
 .svgGray {
     fill: gray;
 }
@@ -45,6 +46,21 @@ h1, h2 {
     top: 0;
     bottom: 0;
     right: 0;
+}
+
+.projectTile {
+    width: 200px;
+    height: 400px;
+    background: blue;
+}
+
+.centerAbsolute {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .mobileHide {
@@ -138,6 +154,14 @@ h1, h2 {
     margin-bottom: 19.5px;
 }
 
+.expandedBanner {
+    width: 100%;
+    height: 400px;
+    background: url(/img/particles.jpg) center center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
 
 #socialMedia a {
     padding: 9px 15px;
@@ -245,6 +269,38 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
+#resumeDiv {
+    color: white;
+    font-family: "RobotoThin";
+    width: 340px;
+    height: 80px;
+}
+
+#resumeDiv h3 {
+    margin: 0;
+    font-family: "RobotoThin";
+}
+
+.blueButton {
+    background:#00e9ff;
+    border: 0;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+.blueButton:hover {
+    background:#a3a3a3;
+    
+}
+
+.blueButton:focus {   
+    outline: 0 !important;
+}
+
+.blueButton:active {
+    background: #727272;
+}
 /* Import Fonts*/
 
 @font-face {
@@ -304,6 +360,7 @@ h1, h2 {
         width: 300px;
         height: 70px;
     }
+
 
     .mobileNav {
         display: block;

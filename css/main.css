@@ -166,17 +166,6 @@ h1, h2 {
   .lcarsButton:active {
     background: #727272; }
 
-.calcButton {
-  color: #6653B7;
-  border: 2px solid #6653B7; }
-  .calcButton:hover {
-    background: #6653B7;
-    color: black; }
-  .calcButton:focus {
-    outline: 0 !important; }
-  .calcButton:active {
-    background: #727272; }
-
 .lightGreenButton {
   color: #C8C586;
   border: 2px solid #C8C586; }
@@ -477,7 +466,17 @@ h1, h2 {
       font-size: 30px;
       margin: 0; }
     .boxText p {
-      display: none; } }
+      display: none; }
+
+  #resumeDiv {
+    color: white;
+    font-family: "RobotoThin";
+    width: 300px;
+    height: 60px; }
+    #resumeDiv h1 {
+      font-size: 30px; }
+    #resumeDiv h3 {
+      font-size: 20px; } }
 /* Auto height footer and center align elements in footer at max 770px */
 @media only screen and (max-width: 770px) {
   .footer ul {

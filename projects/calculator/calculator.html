@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	</head>
+	<body>
+		<!-- Icon desinged to show calculator -->
+		<div id="launchCalc">
+			<img id="icon" src="img/calc.png">
+			<h3 id="iconText">Calculator</h3>
+		</div>
+		<!-- Calculator -->
+		<div class="container" id="draggable">
+			<div class="col">
+				<div id="topBar"></div>
+			</div>
+			<div class="col">
+				<div class="screen" id="screen">
+					<div id="display">
+						<input value = "" type="text" step="any" id="displayInput" class="inputStyle" readOnly>
+					</div>
+					<div id="centerHand">x</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="button darkButton borderBottomLeft" id="clear">C</div>
+				<div class="button darkButton borderBottomLeft" id="isNegative">+/-</div>
+				<div class="button darkButton borderBottomLeft" id="percentage">%</div>
+				<div class="button orange borderBottomLeft" id="divide">/</div>
+			</div>
+			<div class="col">
+				<div class="button buttonNumber borderBottomLeft" id="seven">7</div>
+				<div class="button buttonNumber borderBottomLeft" id="eight">8</div>
+				<div class="button buttonNumber borderBottomLeft" id="nine">9</div>
+				<div class="button orange border" id="multiply">x</div>
+			</div>
+			<div class="col">
+				<div class="button buttonNumber borderBottomLeft" id="four">4</div>
+				<div class="button buttonNumber borderBottomLeft" id="five">5</div>
+				<div class="button buttonNumber borderBottomLeft" id="six">6</div>
+				<div class="button orange border" id="subtract">-</div>
+			<div class="col">
+				<div class="button buttonNumber borderBottomLeft" id="one">1</div>
+				<div class="button buttonNumber borderBottomLeft" id="two">2</div>
+				<div class="button buttonNumber borderBottomLeft" id="three">3</div>
+				<div class="button orange border" id="add">+</div>
+			</div>
+			<div class="col">
+				<div class="button buttonNumber" id="zero">0</div>
+				<div class="button" id="decimal">.</div>
+				<div class="button orange border" id="equals">=</div>
+			</div>
+		</div>
+		<!-- Scrips, inline and Jquery loaded below -->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  		<script>
+  		$( function() {
+    		$( "#draggable" ).draggable();
+  		} );
+  		</script>
+		<script src="js/calculator.js"></script>
+	</body>
+</html>

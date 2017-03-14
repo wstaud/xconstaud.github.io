@@ -42,6 +42,12 @@ $("#lcarsRepoBtn").click(function() {
 $("#lcarsBtn").click(function() {
     window.open("/projects/lcars/index.html", "_blank");
 });
+$("#calcRepoBtn").click(function() {
+    window.open("https://github.com/xconstaud/Codeup-Web-Exercises/tree/master/public", "_blank");
+});
+$("#calcBtn").click(function() {
+    window.open("/projects/calculator/calculator.html", "_blank");
+});
 //Buttons between LCARS and Exercises here!
 $("#exercisesRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/Codeup-Web-Exercises", "_blank");

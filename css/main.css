@@ -166,6 +166,17 @@ h1, h2 {
   .lcarsButton:active {
     background: #727272; }
 
+.calcButton {
+  color: #6653B7;
+  border: 2px solid #6653B7; }
+  .calcButton:hover {
+    background: #6653B7;
+    color: black; }
+  .calcButton:focus {
+    outline: 0 !important; }
+  .calcButton:active {
+    background: #727272; }
+
 .lightGreenButton {
   color: #C8C586;
   border: 2px solid #C8C586; }
@@ -327,7 +338,10 @@ h1, h2 {
   background: #A179B7; }
 
 #lcarsBox {
-  background: #FFCC99; }
+  background: #FF9966; }
+
+#calcBox {
+  background: #43F2FA; }
 
 #blogBox {
   background: #3F4531; }
@@ -347,6 +361,10 @@ h1, h2 {
 
 #lcarsPhoto {
   background: url(/img/lcars.png) center center;
+  background-size: cover; }
+
+#calcPhoto {
+  background: url(/img/calc.png) center center;
   background-size: cover; }
 
 #blogPhoto {

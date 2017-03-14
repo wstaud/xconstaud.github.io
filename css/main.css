@@ -52,6 +52,8 @@ h1, h2 {
     position: relative;
     width: 50%;
     height: 50vh;   
+    margin: 0;
+    min-height: 300px;
 }
 
 
@@ -525,9 +527,7 @@ h1, h2 {
     .boxText p {
         display: none;
     }
-    .projectTile {
-        margin: 0 auto;
-    }
+    
 }
 /* Auto height footer and center align elements in footer at max 770px */
 @media only screen and (max-width: 770px) {

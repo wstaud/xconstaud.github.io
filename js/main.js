@@ -1,13 +1,7 @@
 $(document).ready (function() {
     "use strict";
 
-$(document).ready(function(){
-    $(".mobileNav").on("click", function(){
-        $(".nav").toggleClass("open");
-    });
-
-});
-
+//SVG Icon Fetch. This gives ability to change icon attributes within CSS
 jQuery('img.svg').each(function(){
     var $img = jQuery(this);
     var imgID = $img.attr('id');
@@ -37,6 +31,8 @@ jQuery('img.svg').each(function(){
 
 });
 
+//Button Liteners
+
 $("#siteRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/xconstaud.github.io", "_blank");
 });
@@ -46,7 +42,7 @@ $("#lcarsRepoBtn").click(function() {
 $("#lcarsBtn").click(function() {
     window.open("/projects/lcars/index.html", "_blank");
 });
-
+//Buttons between LCARS and Exercises here!
 $("#exercisesRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/Codeup-Web-Exercises", "_blank");
 });
@@ -54,10 +50,9 @@ $("#githubRepoBtn").click(function() {
     window.open("https://github.com/xconstaud", "_blank");
 });
 
-
-
-
-
+$(".mobileNav").on("click", function(){
+    $(".nav").toggleClass("open");
+});
 
 
 });

@@ -166,25 +166,54 @@ h1, h2 {
     position: relative;
 }
 
-.blueButton {
-    background:#00e9ff;
-    border: 0;
-    border-radius: 15px;
+.button {
+    background: transparent;
     font-size: 15px;
     padding: 10px 25px;
     margin-top: 15px;
 }
-.blueButton:hover {
-    background:#a3a3a3;
-    
+.button:hover {
+    background:#a3a3a3;  
 }
-
-.blueButton:focus {   
+.button:focus {   
     outline: 0 !important;
 }
-
-.blueButton:active {
+.button:active {
     background: #727272;
+}
+.blueButton {
+    color: #00e9ff;
+    border: 2px solid #00e9ff;
+}   
+
+.purpleButton {
+    color: #8C9AE3;
+    border: 2px solid #8C9AE3;
+}
+
+.lcarsButton {
+    color: #CC6666;
+    border: 2px solid #CC6666;
+}
+
+.lightGreenButton {
+    color: #C8C586;
+    border: 2px solid #C8C586;
+}
+
+.blackButton {
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.darkGreenButton {
+    color: #3F4531;
+    border: 2px solid #3F4531;
+}
+
+.whiteButton {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
 }
 
 .boxText {

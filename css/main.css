@@ -49,10 +49,10 @@ h1, h2 {
 }
 
 .projectTile {
-    width: 200px;
-    height: 400px;
-    background: blue;
+    width: 50%;
+    height: 500px;   
 }
+
 
 .centerAbsolute {
     position: absolute;
@@ -162,6 +162,30 @@ h1, h2 {
     text-align: center;
     position: relative;
 }
+
+.blueButton {
+    background:#00e9ff;
+    border: 0;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+.blueButton:hover {
+    background:#a3a3a3;
+    
+}
+
+.blueButton:focus {   
+    outline: 0 !important;
+}
+
+.blueButton:active {
+    background: #727272;
+}
+
+
+
 
 #socialMedia a {
     padding: 9px 15px;
@@ -281,26 +305,63 @@ h1, h2 {
     font-family: "RobotoThin";
 }
 
-.blueButton {
-    background:#00e9ff;
-    border: 0;
-    border-radius: 15px;
-    font-size: 15px;
-    padding: 10px 25px;
-    margin-top: 15px;
+#siteBox {
+    background: #A179B7;
 }
-.blueButton:hover {
-    background:#a3a3a3;
-    
+#lcarsBox {
+    background: #FFCC99;
+}
+#blogBox {
+    background: #3F4531;
+}
+#exodsBox {
+    background: #5050a8;
+}
+#exercisesBox {
+    background: #769E57;
+}
+#githubBox {
+    background: black;
 }
 
-.blueButton:focus {   
-    outline: 0 !important;
+#sitePhoto {
+    background: url(/img/siteBanner.png) center center;
+    background-size: cover;
 }
 
-.blueButton:active {
-    background: #727272;
+#lcarsPhoto {
+    background: url(/img/lcars.png) center center;
+    background-size: cover;
 }
+
+#blogPhoto {
+    background: url(/img/blog.png) center center;
+    background-size: cover;
+}
+
+#exodsPhoto {
+    background: url(/img/exods.png) center center;
+    background-size: cover;
+}
+
+#exercisesPhoto {
+    background: url(/img/codeup.jpg) center center;
+    background-size: cover;
+}
+
+#githubPhoto {
+    background: url(/img/github.jpg) center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
 /* Import Fonts*/
 
 @font-face {

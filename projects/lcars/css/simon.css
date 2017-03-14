@@ -1,0 +1,462 @@
+/* Load Fonts */
+@font-face {
+    font-family: starTrek;
+    src: url('../resources/st.ttf');
+}
+@font-face {
+    font-family: starTrekBold;
+    src: url('../resources/stBold.ttf');
+}
+
+/* Global Page Style */
+html {
+    background: black;
+    font-family: 'starTrek';
+}
+
+/* ==Lock Page Aspect== */
+
+.container {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.realitive {
+    position: relative;
+}
+
+/* ==Background color classes== */
+.purple {
+    background: #9999FF;   
+}
+
+.mustard {
+    background: #FFCC99;
+}
+
+.pink {
+    background: #CC99CC;
+}
+
+.brown {
+    background: #FF9966;
+}
+
+/* Scrolling Random Numbers List */
+.dataOutput {
+    width: 1059px;
+    color: #9999CC;
+    position: absolute;
+    left: 211px;
+    top: 76px;
+    font-size: 19px;
+    text-align: right;
+    border-spacing: 0px;
+}
+
+/* Prompt Button --Future proof */
+.readyButton {
+    margin-top: 60px;
+    border-radius: 15px;
+    font-family: 'starTrekBold';
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+.numberAbsolute {
+    opacity: 0;
+    position: absolute;
+    color: #FF9900;
+    font-size: 50px;
+}
+
+.statusBar {
+    background: #CC6666;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+}
+
+
+
+
+/* ==DIV ID Styling== */
+#data {
+    position: relative;
+    height: 268px;
+    width: 1200px;
+}
+
+#game {
+    position: relative;
+}
+
+/* LCARS Title */
+#shieldTitle {
+    color: #9999CC;
+    position: absolute;
+    right: -76px;
+    top: -9px;
+    font-size: 80px;
+    margin: 0;
+    opacity: 0;
+}
+
+/* ==LCARS Layout Styling== */
+
+#topLeftBox {
+    width: 150px;
+    height: 120px;
+    opacity: 0;
+}
+
+/* Hooks Below */
+.topLeftHook {
+    width: 518px;
+    position: relative;
+    left: -2px;
+    margin-top: 3px;
+    opacity: 0;
+}
+
+#topLeftHook {
+   display: inline; 
+}
+#topLeftHookRed {
+    display: none;
+}
+#topLeftHookWhite {
+    display: none;
+}
+.midHook {
+    width: 518px;
+    position: relative;
+    left: -1px;
+    opacity: 0;
+}
+#midHook {
+    display: block;
+}
+
+#midHookRed {
+    display: none;
+}
+#midHookWhite {
+    display: none;
+
+}
+/* End Hooks */
+
+#midLeftBox {
+    width: 150px;
+    height: 180px;   
+    opacity: 0; 
+}
+
+#midLeftBoxSm {
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    opacity: 0;
+}
+
+#botLeftBox {
+    margin-top: 5px;
+    width: 150px;
+    height: 210px;   
+    opacity: 0; 
+}
+
+#leftHookMiniBox {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 520px;
+    bottom: 5px;
+    opacity: 0;
+}
+
+#midHookMiniBox {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 520px;
+    top: 3px;
+    opacity: 0;
+}
+
+#topShortBox {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 555px;
+    bottom: 5px;
+    opacity: 0;
+
+}
+#topLongBox {
+    position: absolute;
+    width: 490px;
+    height: 20px;
+    left: 730px;
+    bottom: 5px;
+    opacity: 0;
+
+}
+#topFinalBox {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    left: 1225px;
+    bottom: 5px;
+    opacity: 0;
+
+}
+#thinBox {
+    position: absolute;
+    width: 170px;
+    height: 9px;
+    left: 555px;
+    top: 3px;   
+    opacity: 0; 
+
+}
+#botLongBox {
+    position: absolute;
+    width: 490px;
+    height: 20px;
+    left: 730px;
+    top: 3px;
+    opacity: 0;
+
+}
+#botFinalBox {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    top: 3px;
+    left: 1225px;
+    opacity: 0; 
+
+}
+
+
+
+/* ==LCARS Text styling== */
+#topLeftBoxText {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    bottom: 2px;
+}
+#topLeftHookText{
+    position: absolute;
+    top: 8px;
+    font-size: 25px;
+    right: 1062px;
+}
+#midHookText {
+    position: absolute;
+    bottom: 8px;
+    font-size: 25px;
+    left: 70px;
+}
+#midLeftText {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    bottom: 2px;
+}
+#midLeftBoxSmText {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    bottom: 10px;
+}
+#botLeftBoxText {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    top: 4px;
+}
+
+/* Data Output Table IDs */
+
+#firstLine {
+    top: 88px;
+    opacity: 0;
+}
+#secondLine {
+    top: 107px;
+    opacity: 0;
+}
+#thirdLine {
+    top: 126px;
+    opacity: 0;
+}
+#fourthLine {
+    top: 145px;
+    opacity: 0;
+}
+#fifthLine {
+    top: 165px;
+    opacity: 0;
+}
+#sixthLine {
+    top: 185px;
+    opacity: 0;
+}
+#seventhLine {
+    top: 205px;
+    opacity: 0;
+}
+
+/* Voyager/Game Shields and Ship */
+#voyager {
+    position: absolute;
+    width: 500px;
+    left: 653px;
+    top: 190px;
+    opacity: 0;
+}
+
+/*Shields*/
+#voyagerShields {
+    position: absolute;
+    width: 750px;
+    left: 480px;
+    top: 100px;
+    opacity: 0;
+}
+
+/*Damage Indicators*/
+#indicatorTop {
+    position: absolute;
+    width: 750px;
+    left: 485px;
+    top: 50px;
+    opacity: 0;
+}
+
+#indicatorBottom {
+    position: absolute;
+    width: 750px;
+    left: 485px;
+    top: 420px;
+    opacity: 0;
+}
+
+#indicatorLeft {
+    position: absolute;
+    height: 240px;
+    left: 440px;
+    top: 190px;
+    opacity: 0;
+}
+
+#indicatorRight {
+    position: absolute;
+    height: 240px;
+    left: 1198px;
+    top: 190px;
+    opacity: 0;
+}
+
+/*Prompt User Ready Styling*/
+
+#promptReady {
+    background: black;
+    width: 400px;
+    height: 200px;
+    border: 10px solid #FFCC99;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    left: 450px;
+    opacity: 0;
+    text-align: center;
+}
+
+#readyText {
+    color: #9999CC;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#readyYes {
+    background: red;
+    border: 1px;
+}
+
+#readyYes:hover {
+    background: white;
+    color: black;
+}
+
+#readyNo:hover {
+    background: #FF9900; 
+}
+
+#leftNumberDivclass {
+    top: 105px;
+    left: 190px;
+}
+#rightNumberDivclass {
+    top: 153px;
+    left: 190px;
+}
+#backNumberDivclass {
+    top: 203px;
+    left: 190px;
+}
+#frontNumberDivclass {
+    top: 251px;
+    left: 190px;
+}
+
+/* Shield Status Bars */
+#leftBar {
+    top: 16px;
+    left: 63px;
+}
+#rightBar {
+    top: 15px;
+    left: 130px;
+}
+#frontBar {
+    top: 15px;
+    left: 66px;
+}
+#backBar {
+    top: 16px;
+    left: 75px;
+}
+
+/* Massive INCOMING TRANSMISSION LCARS warning */
+#incoming {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    left: 160px;
+    font-size: 200px;
+    z-index: 200;
+    text-align: center;
+    color: red;
+}
+
+/* Skip Button Styling */
+#skipBtn {
+    display: none;
+    position: absolute;
+    left: 180px;
+    bottom: -380px;
+    background: red;
+    border: 0;
+    z-index: 500;
+}
+

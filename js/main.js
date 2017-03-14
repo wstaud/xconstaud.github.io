@@ -47,4 +47,17 @@ $("#lcarsBtn").click(function() {
     window.open("/projects/lcars/index.html", "_blank");
 });
 
+$("#exercisesRepoBtn").click(function() {
+    window.open("https://github.com/xconstaud/Codeup-Web-Exercises", "_blank");
+});
+$("#githubRepoBtn").click(function() {
+    window.open("https://github.com/xconstaud", "_blank");
+});
+
+
+
+
+
+
+
 });

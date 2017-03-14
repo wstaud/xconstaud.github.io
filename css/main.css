@@ -1,86 +1,68 @@
-/* Gives us full width and height to push backgrounds to max margins */
 html, body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
 
 svg {
-    fill: white;
-}
-
-svg:hover {
-    fill: gray;
-}
+  fill: white; }
+  svg:hover {
+    fill: gray; }
 
 img {
-  max-width: 100%; 
-  height: auto !important;
-}
+  max-width: 100%;
+  height: auto !important; }
 
 h1, h2 {
-    margin: 0;
-}
-
+  margin: 0; }
 
 .svgGray {
-    fill: gray;
-}
+  fill: gray; }
 
 .cover {
-    width: 100%;
-    height: 100%;
-    background: url(/img/coverMed.jpg) center center;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-}
+  width: 100%;
+  height: 100%;
+  background: url(/img/coverMed.jpg) center center;
+  background-size: cover;
+  text-align: center;
+  position: relative; }
 
 .centerTextAbsolute {
-    width: 665px;
-    height: 150px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-}
+  width: 665px;
+  height: 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; }
 
 .projectTile {
-    position: relative;
-    width: 50%;
-    height: 50vh;   
-    margin: 0;
-    min-height: 300px;
-}
-
+  position: relative;
+  width: 50%;
+  height: 50vh;
+  margin: 0;
+  min-height: 300px; }
 
 .centerAbsolute {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
 
 .mobileHide {
-    display: inline-block;
-}
+  display: inline-block; }
 
 .nav {
-    width: 100%;
-    background: black;
-    height: 80px;
-}
-
-.nav ul {
+  width: 100%;
+  background: black;
+  height: 80px; }
+  .nav ul {
     list-style: none;
-    text-align: center;
-}
-.nav a {
+    text-align: center; }
+  .nav a {
     float: left;
     display: inline-block;
     padding: 28px 30px;
@@ -88,457 +70,382 @@ h1, h2 {
     font-size: 20px;
     font-family: "RobotoThin";
     text-decoration: none;
-    color: white;
-}
-
-.nav a:hover {
-    color: gray;
-}
+    color: white; }
+    .nav a:hover {
+      color: gray; }
 
 .whiteBox {
-    background: white;
-    text-align: center;
-    box-shadow: inset 1px 4px 9px -6px;
-}
+  background: white;
+  text-align: center;
+  box-shadow: inset 1px 4px 9px -6px; }
+
 .grayBox {
-    background: #efefef;
-    box-shadow: inset 1px 4px 9px -6px;  
-    
-}
+  background: #efefef;
+  box-shadow: inset 1px 4px 9px -6px; }
 
 .footer {
-    height: 100%;
-    width: 100%;
-    background: #efefef;
-    box-shadow: inset 1px 4px 9px -6px;
-    font-family: "RobotoThin";
-    color: gray;
-}
-
-.footer a {
-    text-decoration: none;
-}
-
-.footer ul {
+  height: 100%;
+  width: 100%;
+  background: #efefef;
+  box-shadow: inset 1px 4px 9px -6px;
+  font-family: "RobotoThin";
+  color: gray; }
+  .footer a {
+    text-decoration: none; }
+  .footer ul {
     list-style-type: none;
-    text-align: left;
-}
+    text-align: left; }
 
 .footerGrid {
-    height: 100px;
-    text-align: center;
-}
+  height: 100px;
+  text-align: center; }
 
 .footerCopyright {
-    margin-top: 24.5px;
-    margin-bottom: 24.5px;
-}
+  margin-top: 24.5px;
+  margin-bottom: 24.5px; }
 
 .footerLinks {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 .fullwidth {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
-
-.mobileNav {
-    display: none;
-}
-.mobileNavLinks {
-    display: none;
-}
+.mobileNav, .mobileNavLinks {
+  display: none; }
 
 .footerIcons {
-    margin-top: 19.5px;
-    margin-bottom: 19.5px;
-}
+  margin-top: 19.5px;
+  margin-bottom: 19.5px; }
 
 .expandedBanner {
-    width: 100%;
-    height: 400px;
-    background: url(/img/particles.jpg) center center;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-}
+  width: 100%;
+  height: 400px;
+  background: url(/img/particles.jpg) center center;
+  background-size: cover;
+  text-align: center;
+  position: relative; }
 
 .button {
-    background: transparent;
-    font-size: 15px;
-    padding: 10px 25px;
-    margin-top: 15px;
-}
-.button:hover {
-    background:#a3a3a3;  
-}
-.button:focus {   
-    outline: 0 !important;
-}
-.button:active {
-    background: #727272;
-}
+  background: transparent;
+  font-size: 15px;
+  padding: 10px 25px;
+  margin-top: 15px; }
+
 .blueButton {
-    color: #00e9ff;
-    border: 2px solid #00e9ff;
-}   
+  color: #00e9ff;
+  border: 2px solid #00e9ff; }
+  .blueButton:hover {
+    background: #00e9ff;
+    color: black; }
+  .blueButton:focus {
+    outline: 0 !important; }
+  .blueButton:active {
+    background: #727272; }
 
 .purpleButton {
-    color: #8C9AE3;
-    border: 2px solid #8C9AE3;
-}
+  color: #8C9AE3;
+  border: 2px solid #8C9AE3; }
+  .purpleButton:hover {
+    background: #8C9AE3;
+    color: black; }
+  .purpleButton:focus {
+    outline: 0 !important; }
+  .purpleButton:active {
+    background: #727272; }
 
 .lcarsButton {
-    color: #CC6666;
-    border: 2px solid #CC6666;
-}
+  color: #CC6666;
+  border: 2px solid #CC6666; }
+  .lcarsButton:hover {
+    background: #CC6666;
+    color: black; }
+  .lcarsButton:focus {
+    outline: 0 !important; }
+  .lcarsButton:active {
+    background: #727272; }
 
 .lightGreenButton {
-    color: #C8C586;
-    border: 2px solid #C8C586;
-}
+  color: #C8C586;
+  border: 2px solid #C8C586; }
+  .lightGreenButton:hover {
+    background: #C8C586;
+    color: black; }
+  .lightGreenButton:focus {
+    outline: 0 !important; }
+  .lightGreenButton:active {
+    background: #727272; }
 
 .blackButton {
-    color: #000000;
-    border: 2px solid #000000;
-}
+  color: #000000;
+  border: 2px solid #000000; }
+  .blackButton:hover {
+    background: #000000;
+    color: white; }
+  .blackButton:focus {
+    outline: 0 !important; }
+  .blackButton:active {
+    background: #727272; }
 
 .darkGreenButton {
-    color: #3F4531;
-    border: 2px solid #3F4531;
-}
+  color: #3F4531;
+  border: 2px solid #3F4531; }
+  .darkGreenButton:hover {
+    background: #3F4531;
+    color: black; }
+  .darkGreenButton:focus {
+    outline: 0 !important; }
+  .darkGreenButton:active {
+    background: #727272; }
 
 .whiteButton {
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-}
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF; }
+  .whiteButton:hover {
+    background: #FFFFFF;
+    color: black; }
+  .whiteButton:focus {
+    outline: 0 !important; }
+  .whiteButton:active {
+    background: #727272; }
 
 .boxText {
-    position: absolute;
-    width: 460px;
-    height: 175px;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.boxText h1 {
+  position: absolute;
+  width: 460px;
+  height: 175px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .boxText h1 {
     font-family: "RobotoThin";
     font-size: 60px;
-    margin: 0;
-}
-.boxText p {
+    margin: 0; }
+  .boxText p {
     font-family: "Roboto";
-    margin-top: 10px;
-}
+    margin-top: 10px; }
 
 .whiteText {
-    color: white;
-}
-
-
-
+  color: white; }
 
 #socialMedia a {
-    padding: 9px 15px;
-}
+  padding: 9px 15px; }
 
 #aboutMeDiv {
-    text-align: left;
-}
+  text-align: left; }
 
 #myPhoto {
-    margin-top: 100px;
-
-}
+  margin-top: 100px; }
 
 #logo {
-    font-family: "Geosan";
-    font-size: 30px;
-    color: white;
-    padding: 22.5px 20px;
-    text-decoration: none;
-}
-#mobileLogo {
-    font-family: "Geosan";
-    font-size: 30px;
-    color: white;
-    padding: 22.5px 20px;
-    text-decoration: none;
-    display: inline-block;
-}
+  font-family: "Geosan";
+  font-size: 30px;
+  color: white;
+  padding: 22.5px 20px;
+  text-decoration: none; }
 
+#mobileLogo {
+  font-family: "Geosan";
+  font-size: 30px;
+  color: white;
+  padding: 22.5px 20px;
+  text-decoration: none;
+  display: inline-block; }
 
 #socialMedia {
-    float: right;
-    margin-right: 5px;
-}
+  float: right;
+  margin-right: 5px; }
 
 #coverName {
-    font-family: "RobotoThin";
-    font-size: 90px;
-    margin: 0;
-}
+  font-family: "RobotoThin";
+  font-size: 90px;
+  margin: 0; }
 
 #coverDes {
-    font-family: "Roboto";
-    font-size: 50px;
-    margin-top: 0; 
-}
+  font-family: "Roboto";
+  font-size: 50px;
+  margin-top: 0; }
 
 #aboutMe {
-    font-family: "Coolvetica";
-    font-size: 80px;
-    font-weight: 100;
-    color: black;
-    margin-top: 80px;
-    margin-bottom: 0;
-}
-
+  font-family: "Coolvetica";
+  font-size: 80px;
+  font-weight: 100;
+  color: black;
+  margin-top: 80px;
+  margin-bottom: 0; }
 
 #summary {
-    font-family: "RobotoLight";
-    color: gray;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
+  font-family: "RobotoLight";
+  color: gray;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 0; }
 
 #aboutMeText {
-    font-family: "RobotoLight";
-    color: gray;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
+  font-family: "RobotoLight";
+  color: gray;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 0; }
 
 #aboutMeExtra {
-    font-family: "RobotoThin";
-    color: gray;
-    font-size: 20px;
-    margin-top: 30px;
-}
+  font-family: "RobotoThin";
+  color: gray;
+  font-size: 20px;
+  margin-top: 30px; }
 
 #moreList {
-    text-align: left;
-    margin-top: 50px;
-}
+  text-align: left;
+  margin-top: 50px; }
 
 #enterprise {
-    /*opacity: 0.5;*/
-    margin-top: 50px;
-}
+  margin-top: 50px; }
+
 #moreList h2 {
-    font-family: "RobotoBold";
-
-}
+  font-family: "RobotoBold"; }
 #moreList li {
-    font-family: "Roboto";
-    padding: 10px;
-}
-
+  font-family: "Roboto";
+  padding: 10px; }
 #moreList ul {
-    padding: 20px;
-}
+  padding: 20px; }
 
 #chart {
-    margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 #resumeDiv {
-    color: white;
-    font-family: "RobotoThin";
-    width: 340px;
-    height: 80px;
-}
-
-#resumeDiv h3 {
+  color: white;
+  font-family: "RobotoThin";
+  width: 340px;
+  height: 80px; }
+  #resumeDiv h3 {
     margin: 0;
-    font-family: "RobotoThin";
-}
+    font-family: "RobotoThin"; }
 
 #siteBox {
-    background: #A179B7;
-}
+  background: #A179B7; }
+
 #lcarsBox {
-    background: #FFCC99;
-}
+  background: #FFCC99; }
+
 #blogBox {
-    background: #3F4531;
-}
+  background: #3F4531; }
+
 #exodsBox {
-    background: #5050a8;
-}
+  background: #5050a8; }
+
 #exercisesBox {
-    background: #769E57;
-}
+  background: #769E57; }
+
 #githubBox {
-    background: black;
-}
+  background: black; }
 
 #sitePhoto {
-    background: url(/img/siteBanner.png) center center;
-    background-size: cover;
-}
+  background: url(/img/siteBanner.png) center center;
+  background-size: cover; }
 
 #lcarsPhoto {
-    background: url(/img/lcars.png) center center;
-    background-size: cover;
-}
+  background: url(/img/lcars.png) center center;
+  background-size: cover; }
 
 #blogPhoto {
-    background: url(/img/blog.png) center center;
-    background-size: cover;
-}
+  background: url(/img/blog.png) center center;
+  background-size: cover; }
 
 #exodsPhoto {
-    background: url(/img/exods.png) center center;
-    background-size: cover;
-}
+  background: url(/img/exods.png) center center;
+  background-size: cover; }
 
 #exercisesPhoto {
-    background: url(/img/codeup.jpg) center center;
-    background-size: cover;
-}
+  background: url(/img/codeup.jpg) center center;
+  background-size: cover; }
 
 #githubPhoto {
-    background: url(/img/github.jpg) center center;
-    background-size: cover;
-}
+  background: url(/img/github.jpg) center center;
+  background-size: cover; }
 
 /*#portfolio .grid {
-    max-width: 5000px;
-    min-width: 0px;
-}*/
-
-
-
-
-
-
-
-
-
-/* Import Fonts*/
-
+ *    max-width: 5000px
+ *    min-width: 0px
+ *} */
+/* Import Fonts */
 @font-face {
-    font-family: 'Coolvetica'; 
-    src: url('/resources/coolvetica.ttf'); 
-}
-
+  font-family: "Coolvetica";
+  src: url("/resources/coolvetica.ttf"); }
 @font-face {
-    font-family: 'GeosanOblique'; 
-    src: url('/resources/GeosansLightOblique.ttf'); 
-}
-
+  font-family: "GeosanOblique";
+  src: url("/resources/GeosansLightOblique.ttf"); }
 @font-face {
-    font-family: 'Geosan'; 
-    src: url('/resources/GeosansLight.ttf'); 
-}
-
+  font-family: "Geosan";
+  src: url("/resources/GeosansLight.ttf"); }
 @font-face {
-    font-family: 'Roboto'; 
-    src: url('/resources/RobotoRegular.ttf'); 
-}
-
+  font-family: "Roboto";
+  src: url("/resources/RobotoRegular.ttf"); }
 @font-face {
-    font-family: 'RobotoLight'; 
-    src: url('/resources/RobotoLight.ttf'); 
-}
-
+  font-family: "RobotoLight";
+  src: url("/resources/RobotoLight.ttf"); }
 @font-face {
-    font-family: 'RobotoBold'; 
-    src: url('/resources/RobotoBold.ttf'); 
-}
-
+  font-family: "RobotoBold";
+  src: url("/resources/RobotoBold.ttf"); }
 @font-face {
-    font-family: 'RobotoThin'; 
-    src: url('/resources/RobotoThin.ttf'); 
-}
-
-
-/* Hide desktop social media icons at below 1024px*/
+  font-family: "RobotoThin";
+  src: url("/resources/RobotoThin.ttf"); }
+/* Hide desktop social media icons at below 1024px */
 @media only screen and (max-width: 1024px) {
-    .mobileHide {
-        display: none;
-    }
-
-}
-
+  .mobileHide {
+    display: none; } }
 @media only screen and (max-width: 940px) {
-    .projectTile {
-        position: relative;
-        width: 100%;
-        height: 50vh;   
-    }
-
-}
-/* Switch Navbar to mobile, adjust cover text size and hide mobilenavbar social media icons at less than 700px*/
+  .projectTile {
+    position: relative;
+    width: 100%;
+    height: 50vh; } }
+/* Switch Navbar to mobile, adjust cover text size and hide mobilenavbar social media icons at less than 700px */
 @media only screen and (max-width: 700px) {
-    #coverName {
-        font-size: 40px;
-    }
+  #coverName {
+    font-size: 40px; }
 
-    #coverDes {
-        font-size: 20px;
-    }
+  #coverDes {
+    font-size: 20px; }
 
-    .centerTextAbsolute {
-        width: 300px;
-        height: 70px;
-    }
+  .centerTextAbsolute {
+    width: 300px;
+    height: 70px; }
 
+  .mobileNav {
+    display: block;
+    height: 80px;
+    width: 100%;
+    background: url(/img/burgerIcon.png) no-repeat 98% center;
+    background-color: black;
+    cursor: pointer; }
 
-    .mobileNav {
-        display: block;
-        height: 80px;
-        width: 100%;
-        background: url(/img/burgerIcon.png) no-repeat 98% center;
-        background-color: black;
-        cursor: pointer;
-    }
+  .nav {
+    width: 100%;
+    height: 0;
+    background: gray; }
 
-    .nav {
-        width: 100%;
-        height: 0;
-        background: gray;
-    }
+  .open {
+    width: 100%;
+    height: auto;
+    background: gray; }
 
-    .open {
-        width: 100%;
-        height: auto;
-        background: gray;
-    }
-
-    .nav a {
-        float: none;
-        display: block;
-        padding: 28px 30px;
-        margin: 0;
-        font-size: 20px;
-        font-family: "RobotoThin";
-        text-decoration: none;
-        color: white;
-        /*border-bottom: 1px solid ;*/
-    }
-
+  .nav a {
+    float: none;
+    display: block;
+    padding: 28px 30px;
+    margin: 0;
+    font-size: 20px;
+    font-family: "RobotoThin";
+    text-decoration: none;
+    color: white; }
     .nav a:hover {
-        color: black;
-    }
+      color: black; }
 
-    #socialMedia {
-        display: none;
-    }
-    
-    #logo {
-        display: none;
-    }
+  #socialMedia, #logo {
+    display: none; }
 
-    .boxText {
+  .boxText {
     position: absolute;
     width: 310px;
     height: 90px;
@@ -546,34 +453,23 @@ h1, h2 {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    }
+    bottom: 0; }
     .boxText h1 {
-        font-family: "RobotoThin";
-        font-size: 30px;
-        margin: 0;
-    }
+      font-family: "RobotoThin";
+      font-size: 30px;
+      margin: 0; }
     .boxText p {
-        display: none;
-    }
-    
-}
+      display: none; } }
 /* Auto height footer and center align elements in footer at max 770px */
 @media only screen and (max-width: 770px) {
-    .footer ul {
-        list-style-type: none;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
+  .footer ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
 
-    .footerGrid {
-        height: 100%;
-        text-align: center;
-    }
-}
+  .footerGrid {
+    height: 100%;
+    text-align: center; } }
 
-
-
-
-
+/*# sourceMappingURL=main.css.map */

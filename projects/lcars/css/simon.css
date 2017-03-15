@@ -1,11 +1,11 @@
 /* Load Fonts */
 @font-face {
     font-family: starTrek;
-    src: url('../resources/st.ttf');
+    src: url('/projects/lcars/resources/st.ttf');
 }
 @font-face {
     font-family: starTrekBold;
-    src: url('../resources/stBold.ttf');
+    src: url('/projects/lcars/resources/stBold.ttf');
 }
 
 /* Global Page Style */

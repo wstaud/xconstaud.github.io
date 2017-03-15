@@ -5,7 +5,7 @@
 }
 /*Set background, force scroll to make it look like a desktop*/
 html {
-	background: url("/img/calcBackground.png") top center no-repeat #000000;
+	background: url("/img/calcBackground.jpg") top center no-repeat #000000;
 	background-size: cover;
 	height: 1050px;
 	width: 1680px;

@@ -705,7 +705,7 @@ function backBarAnimation() {
 function redAlertSoundRepeat() {
     var redAlertSound = new Audio("sounds/redAlert4.mp3");
     redAlertSound.play();
-    redAlertSoundTimeout = setTimeout(redAlertSoundRepeat, 10000);
+    redAlertSoundTimeout = setTimeout(redAlertSoundRepeat, 20000);
     redAlertSoundTimeout;
     
 }

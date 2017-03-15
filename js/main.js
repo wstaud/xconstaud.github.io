@@ -40,7 +40,7 @@ $("#lcarsRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/Simple-Simon", "_blank");
 });
 $("#lcarsBtn").click(function() {
-    window.open("/projects/lcars/index.html", "_blank");
+    window.open("/lcars.html", "_blank");
 });
 $("#calcRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/Codeup-Web-Exercises/tree/master/public", "_blank");

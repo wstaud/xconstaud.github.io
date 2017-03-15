@@ -489,6 +489,7 @@ function shutdown() {
     setTimeout(function() { 
         var powerDown = new Audio("/sounds/powerDown.mp3");
         powerDown.play();
+        readyYes.removeClass('readyButton').addClass('readyButtonLost');
         readyPrompt.css({
         display: 'block'});
     }, 7000);

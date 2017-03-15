@@ -56,7 +56,18 @@ html {
 
 /* Prompt Button --Future proof */
 .readyButton {
-    margin-top: 60px;
+    margin-top: 0px;
+    border-radius: 15px;
+    font-family: 'starTrekBold';
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+.readyButtonLost {
+    margin-top: 30px;
     border-radius: 15px;
     font-family: 'starTrekBold';
     font-size: 25px;
@@ -384,7 +395,7 @@ html {
 #readyText {
     color: #9999CC;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #readyYes {

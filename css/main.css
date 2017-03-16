@@ -19,10 +19,26 @@ h1, h2 {
 .svgGray {
   fill: gray; }
 
-.cover {
+.cover, .constructionCover, .aboutCover {
   width: 100%;
   height: 100%;
-  background: url(/img/coverMed.jpg) center center;
+  background-size: cover !important;
+  text-align: center;
+  position: relative; }
+
+.constructionCover {
+  background: url(/img/construction.jpg) center center;
+  color: white;
+  font-family: "robotoBold";
+  font-size: 30px; }
+
+.aboutCover {
+  background: url(/img/coverMed.jpg) center center; }
+
+.expandedBanner {
+  width: 100%;
+  height: 400px;
+  background: url(/img/particles.jpg) center center;
   background-size: cover;
   text-align: center;
   position: relative; }
@@ -43,14 +59,6 @@ h1, h2 {
   height: 50vh;
   margin: 0;
   min-height: 300px; }
-
-.centerAbsolute {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
 
 .mobileHide {
   display: inline-block; }
@@ -73,6 +81,13 @@ h1, h2 {
     color: white; }
     .nav a:hover {
       color: gray; }
+
+.mobileNav, .mobileNavLinks {
+  display: none; }
+
+.fullwidth {
+  width: 100%;
+  height: 100%; }
 
 .whiteBox {
   background: white;
@@ -108,24 +123,9 @@ h1, h2 {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-.fullwidth {
-  width: 100%;
-  height: 100%; }
-
-.mobileNav, .mobileNavLinks {
-  display: none; }
-
 .footerIcons {
   margin-top: 19.5px;
   margin-bottom: 19.5px; }
-
-.expandedBanner {
-  width: 100%;
-  height: 400px;
-  background: url(/img/particles.jpg) center center;
-  background-size: cover;
-  text-align: center;
-  position: relative; }
 
 .button {
   background: transparent;
@@ -383,10 +383,6 @@ h1, h2 {
   background: url(/img/github.jpg) center center;
   background-size: cover; }
 
-/*#portfolio .grid {
- *    max-width: 5000px
- *    min-width: 0px
- *} */
 /* Import Fonts */
 @font-face {
   font-family: "Coolvetica";

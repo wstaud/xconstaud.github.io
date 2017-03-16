@@ -5,29 +5,55 @@ html, body
   padding: 0
   margin: 0
 
+//Sets default icon color to white
 svg
   fill: white
   &:hover
     fill: gray
 
+//Sets all photos to max-width 100%/height auto to scale them with the grid
 img
   max-width: 100%
   height: auto !important
 
+//Removes default margins
 h1, h2
   margin: 0
 
+//Sets icons with this class to gray
 .svgGray
   fill: gray
 
+//Cover classes below, two extend covers properties. These take up the whole window.
 .cover
   width: 100%
   height: 100%
+  background-size: cover !important
+  text-align: center
+  position: relative
+
+.constructionCover
+  @extend .cover
+  background: url(/img/construction.jpg) center center
+  color: white
+  font-family: "robotoBold"
+  font-size: 30px
+
+.aboutCover
+  @extend .cover
   background: url(/img/coverMed.jpg) center center
+
+//Much like the covers, but does not take up full window
+.expandedBanner
+  width: 100%
+  height: 400px
+  background: url(/img/particles.jpg) center center
   background-size: cover
   text-align: center
   position: relative
 
+  
+//Allows centering of cover texts and general absolute div text
 .centerTextAbsolute
   width: 665px
   height: 150px
@@ -38,6 +64,7 @@ h1, h2
   bottom: 0
   right: 0
 
+//Sets the dimensions of the tiles that display my work
 .projectTile
   position: relative
   width: 50%
@@ -45,17 +72,11 @@ h1, h2
   margin: 0
   min-height: 300px
 
-.centerAbsolute
-  position: absolute
-  margin: auto
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-
+//Hides mobile navbar until called
 .mobileHide
   display: inline-block
 
+//Nav bar properties
 .nav
   width: 100%
   background: black
@@ -75,15 +96,27 @@ h1, h2
     &:hover
       color: gray
 
+//Hides mobile navbar links until called upon
+.mobileNav, .mobileNavLinks
+  display: none
+
+//Allows white and gray box to stripe across the page
+.fullwidth
+  width: 100%
+  height: 100%
+
+//Sets a white background stripe behind content
 .whiteBox
   background: white
   text-align: center
   box-shadow: inset 1px 4px 9px -6px
 
+//Sets a gray background stripe behind content
 .grayBox
   background: #efefef
   box-shadow: inset 1px 4px 9px -6px
 
+//Footer styling
 .footer
   height: 100%
   width: 100%
@@ -97,6 +130,7 @@ h1, h2
     list-style-type: none
     text-align: left
 
+//Enables grid usage in footer. Remaining footer classes are percise positioning
 .footerGrid
   height: 100px
   text-align: center
@@ -109,32 +143,17 @@ h1, h2
   margin-top: 15px
   margin-bottom: 15px
 
-.fullwidth
-  width: 100%
-  height: 100%
-
-.mobileNav, .mobileNavLinks
-  display: none
-
 .footerIcons
   margin-top: 19.5px
   margin-bottom: 19.5px
 
-.expandedBanner
-  width: 100%
-  height: 400px
-  background: url(/img/particles.jpg) center center
-  background-size: cover
-  text-align: center
-  position: relative
 
-//Buttons
+//Button class is the template for all buttons. *colorButton is the specific styling
 .button
   background: transparent
   font-size: 15px
   padding: 10px 25px
   margin-top: 15px
-
 
 .blueButton
   color: #00e9ff
@@ -388,10 +407,6 @@ h1, h2
   background: url(/img/github.jpg) center center
   background-size: cover
 
-/*#portfolio .grid {
- *    max-width: 5000px
- *    min-width: 0px
- *}
 
 /* Import Fonts
 
@@ -440,6 +455,7 @@ h1, h2
     position: relative
     width: 100%
     height: 50vh
+    
 
 /* Switch Navbar to mobile, adjust cover text size and hide mobilenavbar social media icons at less than 700px
 @media only screen and (max-width: 700px)

@@ -60,5 +60,9 @@ $(".mobileNav").on("click", function(){
     $(".nav").toggleClass("open");
 });
 
+$("#goBack").on("click", function(){
+    window.history.back();
+});
+
 
 });
